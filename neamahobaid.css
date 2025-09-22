@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins';
+}
+
+body{
+    display: flex;
+    background: #0c1022;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    position: relative;
+    width: 350px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 32px;
+    overflow: hidden;
+}
+
+.container::before{
+    content: "";
+    position: absolute;
+    height: 650px;
+    width: 650px;
+    background: conic-gradient(transparent,transparent,transparent,#d400d4);
+    animation: animate 4s linear infinite;
+    animation-delay: -2s;
+}
+
+.container::after{
+    content: "";
+    position: absolute;
+    height: 650px;
+    width: 650px;
+    background: conic-gradient(transparent,transparent,transparent,#00cfff);
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.image{
+    position: absolute;
+    inset: 5px;
+    background-color: #0c1022;
+    z-index: 1;
+    border-radius: 16px;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.form-box{
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 25px; 
+}
+
+.form-box .enoan{
+    color: #fff;
+    margin-bottom: 15px; 
+    font-size: 30px;
+
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.WhatsApp button {
+    width: 50vh;
+    height: 7vh;
+    margin-bottom: 5px; 
+   font-size: 23px;
+   background-color:unset ;
+   border:  2px white solid;
+   color:white;
+
+   border-radius:  0px 0px 30px  30px;
+
+}
+
+.WhatsApp button .fa-whatsapp {
+    color:rgb(9, 226, 100) ;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.WhatsApp2 button {
+    width: 50vh;
+    height: 7vh;
+    margin-bottom: 5px;
+    font-size: 23px;
+    background-color:unset ;
+    border:  2px white solid;
+    color:white;
+
+    border-radius:  30px 30px 0px  0px;
+}
+
+.WhatsApp2  button .fa-whatsapp {
+    color:rgb(9, 226, 100) ;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.Facebook button {
+    width: 50vh;
+    height: 7vh;
+    margin-bottom: 5px;
+    font-size: 23px;
+    background-color:unset ;
+    border:  2px white solid;
+    color:white;
+    border-radius:  0px 0px 30px  30px;
+}
+
+.Facebook button .fa-facebook-f {
+    color:rgb(56, 37, 228) ;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.instagram button {
+    width: 50vh;
+    height: 7vh;
+    margin-bottom: 5px;
+    font-size: 23px;
+    background-color:unset ;
+    border:  2px white solid;
+    color:white;
+    border-radius: 30px  30px  0px 0px ;
+}
+
+.instagram button .fa-instagram {
+    color:rgb(174, 6, 216) ;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.telegram button {
+    width: 50vh;
+    height: 7vh;
+    margin-bottom: 5px;
+    font-size: 23px;
+    background-color:unset ;
+   border:  2px white solid;
+   color:white;
+   border-radius:  0px 0px 30px  30px;
+}
+
+.telegram button .fa-telegram {
+    color:rgb(25, 182, 230) ;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.Phone button {
+    width: 50vh;
+    height: 7vh;
+    margin-bottom: 5px;
+    font-size: 23px;
+    background-color:unset ;
+    border:  2px white solid;
+    color:white;
+    border-radius:  30px  30px  0px 0px;
+}
+
+.Phone button .fa-phone {
+ color:rgb(22, 0, 223) ;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.ktlog button {
+    width: 50vh;
+    height: 7vh;
+    margin-bottom: 5px;
+    font-size: 25px;
+    background-color:unset ;
+    border:  2px white solid;
+    color:white;
+    border-radius:  70px 0px 70px  0px;
+}
