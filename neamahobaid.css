@@ -15,7 +15,7 @@ body{
 
 .container{
     position: relative;
-    width: 350px;
+    width: 100%;
     height: 500px;
     background: rgba(0, 0, 0, 0.75);
     border-radius: 20px;
@@ -75,6 +75,16 @@ body{
     color: #fff;
     margin-bottom: 15px; 
     font-size: 30px;
+
+}
+
+
+.form-box a button{
+    
+    width: 100%;
+    max-width: 320px;
+    height: 50px;
+    font-size: 1rem;
 
 }
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -189,3 +199,13 @@ body{
     color:white;
     border-radius:  70px 0px 70px  0px;
 }
+
+
+/* استجابة الشاشات الصغيرة */
+@media (max-width: 480px) {
+    .form-box .enoan { font-size: 1.2rem; }
+    .form-box a button {
+      font-size: 1rem;
+      height: 50px;
+    }
+  }
